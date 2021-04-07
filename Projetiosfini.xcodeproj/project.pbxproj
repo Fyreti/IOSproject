@@ -32,6 +32,10 @@
 		3B358D6E260B468F00F8D091 /* AttendeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B358D6B260B468F00F8D091 /* AttendeeTableViewCell.swift */; };
 		3B6FF89A2618796C00D60785 /* ServiceDataFound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6FF8992618796C00D60785 /* ServiceDataFound.swift */; };
 		3B6FF8A22618903F00D60785 /* ServiceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6FF8A12618903F00D60785 /* ServiceData.swift */; };
+		3BDE8097261DB1F7008BDA6D /* SponsorsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE8095261DB1F7008BDA6D /* SponsorsTableView.swift */; };
+		3BDE8098261DB1F7008BDA6D /* AttendeeTableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE8096261DB1F7008BDA6D /* AttendeeTableTest.swift */; };
+		3BDE80A1261DB2AE008BDA6D /* HomeTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE809F261DB2AD008BDA6D /* HomeTableTests.swift */; };
+		3BDE80A2261DB2AE008BDA6D /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE80A0261DB2AE008BDA6D /* HomeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +79,10 @@
 		3B358D6B260B468F00F8D091 /* AttendeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeTableViewCell.swift; sourceTree = "<group>"; };
 		3B6FF8992618796C00D60785 /* ServiceDataFound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDataFound.swift; sourceTree = "<group>"; };
 		3B6FF8A12618903F00D60785 /* ServiceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceData.swift; sourceTree = "<group>"; };
+		3BDE8095261DB1F7008BDA6D /* SponsorsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorsTableView.swift; sourceTree = "<group>"; };
+		3BDE8096261DB1F7008BDA6D /* AttendeeTableTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeeTableTest.swift; sourceTree = "<group>"; };
+		3BDE809F261DB2AD008BDA6D /* HomeTableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableTests.swift; sourceTree = "<group>"; };
+		3BDE80A0261DB2AE008BDA6D /* HomeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +160,8 @@
 		3B358CEE260B278300F8D091 /* ProjetiosfiniTests */ = {
 			isa = PBXGroup;
 			children = (
+				3BDE8096261DB1F7008BDA6D /* AttendeeTableTest.swift */,
+				3BDE8095261DB1F7008BDA6D /* SponsorsTableView.swift */,
 				3B358CEF260B278300F8D091 /* ProjetiosfiniTests.swift */,
 				3B358CF1260B278300F8D091 /* Info.plist */,
 			);
@@ -161,6 +171,8 @@
 		3B358CF9260B278300F8D091 /* ProjetiosfiniUITests */ = {
 			isa = PBXGroup;
 			children = (
+				3BDE809F261DB2AD008BDA6D /* HomeTableTests.swift */,
+				3BDE80A0261DB2AE008BDA6D /* HomeTests.swift */,
 				3B358CFA260B278300F8D091 /* ProjetiosfiniUITests.swift */,
 				3B358CFC260B278300F8D091 /* Info.plist */,
 			);
@@ -344,6 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BDE8097261DB1F7008BDA6D /* SponsorsTableView.swift in Sources */,
+				3BDE8098261DB1F7008BDA6D /* AttendeeTableTest.swift in Sources */,
 				3B358D66260B468400F8D091 /* HomeTableViewCell.swift in Sources */,
 				3B358D51260B401000F8D091 /* HomeTableViewController.swift in Sources */,
 				3B358D6D260B468F00F8D091 /* AttendeeTableViewCell.swift in Sources */,
@@ -361,6 +375,8 @@
 				3B358D6E260B468F00F8D091 /* AttendeeTableViewCell.swift in Sources */,
 				3B358CFB260B278300F8D091 /* ProjetiosfiniUITests.swift in Sources */,
 				3B358D59260B402000F8D091 /* AttendeeTableViewController.swift in Sources */,
+				3BDE80A2261DB2AE008BDA6D /* HomeTests.swift in Sources */,
+				3BDE80A1261DB2AE008BDA6D /* HomeTableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

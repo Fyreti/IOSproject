@@ -24,8 +24,17 @@ class homeViewController: UIViewController {
         
         
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        //detail.text = datasEvent[myIndex].detail
+        
+        //Access object for test
+        self.debut?.accessibilityIdentifier = "debutEvent"
+        self.fin?.accessibilityIdentifier = "finEvent"
+        self.theme?.accessibilityIdentifier = "themeEvent"
+        self.activity?.accessibilityIdentifier = "locationEvent"
+        self.location?.accessibilityIdentifier = "locationEvent"
+        self.speakeur?.accessibilityIdentifier = "spekeurEvent"
+        self.note?.accessibilityIdentifier = "noteEvent"
+        self.image?.accessibilityIdentifier = "imageEvent"
+        
         location?.text = "Localisation : "
         for i in resultEvent.records[myIndex].fields.location ?? [] {
             location?.text! += i

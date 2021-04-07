@@ -214,6 +214,9 @@ class HomeTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //Access for test
+        tableView.accessibilityIdentifier = "tableEvents"
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "eventCell", for: indexPath) as! HomeTableViewCell
         
         cell.Event.text = resultEvent.records[indexPath.row].fields.activity
