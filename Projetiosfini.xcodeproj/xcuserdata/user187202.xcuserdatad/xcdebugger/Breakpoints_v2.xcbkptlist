@@ -7,100 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6D1DA5C3-B917-42AD-AF46-40447A4F2B34"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Projetiosfini/sponsors/SponsorsTableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178"
-            landmarkName = "SponsorsTableViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "88A52DA5-7FF7-4704-BE07-C4C176AE8741"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Projetiosfini/sponsors/SponsorsTableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "88A52DA5-7FF7-4704-BE07-C4C176AE8741 - 4ef0d21fbdefec4b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Projetiosfini.SponsorsTableViewController.datas.getter : Swift.Array&lt;Projetiosfini.DataSponsor&gt;"
-                  moduleName = "Projetiosfini"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user187202/Desktop/Projetiosfini/Projetiosfini/sponsors/SponsorsTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "88A52DA5-7FF7-4704-BE07-C4C176AE8741 - bd949f242807ba3c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Projetiosfini.SponsorsTableViewController.init(style: __C.UITableViewStyle) -&gt; Projetiosfini.SponsorsTableViewController"
-                  moduleName = "Projetiosfini"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user187202/Desktop/Projetiosfini/Projetiosfini/sponsors/SponsorsTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "63">
-               </Location>
-               <Location
-                  uuid = "88A52DA5-7FF7-4704-BE07-C4C176AE8741 - 7bc3ca3d42a15cf6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Projetiosfini.SponsorsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Projetiosfini.SponsorsTableViewController"
-                  moduleName = "Projetiosfini"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user187202/Desktop/Projetiosfini/Projetiosfini/sponsors/SponsorsTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "156">
-               </Location>
-               <Location
-                  uuid = "88A52DA5-7FF7-4704-BE07-C4C176AE8741 - 7d6e674572b3e337"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Projetiosfini.SponsorsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Projetiosfini.SponsorsTableViewController&gt;"
-                  moduleName = "Projetiosfini"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user187202/Desktop/Projetiosfini/Projetiosfini/sponsors/SponsorsTableViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "112">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "BA5723EB-32DE-4784-9BD1-54E68E37CFF0"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -108,10 +14,10 @@
             filePath = "Projetiosfini/sponsors/SponsorsTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
-            landmarkName = "SponsorsTableViewController"
-            landmarkType = "3">
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "getDataName(from:from:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
