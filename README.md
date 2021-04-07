@@ -8,6 +8,11 @@ Sur l'onglet Attendees/Speakers vous pourrez retrouver la liste de l'ensemble de
 aux evenements ainsi que des informations les concernants(Role, Nom, numéro,email, compagny et le lieu où cette personne parle) 
 Sur le derniers onglets vous pourrez retrouver l'ensemble des entreprises sponsorisant les evenements ainsi que des informations les concernants.
 
+## Nos fonctions principal :
+- getData : Cette fonction prend en paramètre une url, via cette url elle va récupérer de la data JSON, ensuite nous allons convertir ces donnée JSON dans un objet que nous avons défini dans des structs qui correspondent exactement au data JSON. Mais certaine des données étaient des id, nous avons donc du faire une fonction getDataName
+- getDataName : qui va prendre l'id en parametre pour pouvoir faire des liens url à l'api avec les id dedans qui nous permettent d'obtenir le même type de data mais de l'id en question. Une fois que nous avons récupéré ce que nous voulions (par exemple le nom d'une personne), nous allons remplacer l'id de cette personne par son nom dans l'objet.
+- Une fois notre objet complet et bien set, nous allons l'afficher dans nos cell.
+
 Welcome to our application.
 As you can see when you launch the application, a page is directly displayed, 
 it is the one of all the events. If you click on one of the events you will be able to display all the 
