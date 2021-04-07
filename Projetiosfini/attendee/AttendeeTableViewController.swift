@@ -96,7 +96,7 @@ class AttendeeTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
-    private func getData(from url: String){
+    public func getData(from url: String){
         
         let task = URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: { data, response, error in
             guard let data = data, error == nil else{
@@ -129,7 +129,7 @@ class AttendeeTableViewController: UITableViewController {
         
     }
     
-    private func getDataName(from id: [String], from test : Int, from which: String){
+    public func getDataName(from id: [String], from test : Int, from which: String){
             var count = 0
             var url = ""
             for i in id{
