@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  EventViewController.swift
 //  Projetiosfini
 //
 //  Created by user187202 on 3/24/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+class EventViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,4 +17,3 @@ class ViewController: UITableViewController {
 
 
 }
-
