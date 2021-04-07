@@ -1,4 +1,4 @@
-# IOSproject
+# IOSproject Tristan BONNEAU, Tristan ESTEBAN; Quentin PAGNEUX, Etienen YGORRA
 Bienvenue sur notre application.
 Comme vous allez pouvoir le constater au lancement de l'application une page est directement affiché, 
 c'est celle des tous les evenements. Si vous cliquez sur l'un des evenements vous pourrez afficher toutes les 
